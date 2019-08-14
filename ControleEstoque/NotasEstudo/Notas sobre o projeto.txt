@@ -1,0 +1,7 @@
+> Comandos Migration
+
+	Enable-Migrations
+	Add-Migration "CriacaoInicial"
+	Update-database
+
+> Na classe de contexto, é necessário acrescentar um construtor sem parâmetro e passando a connection string.
